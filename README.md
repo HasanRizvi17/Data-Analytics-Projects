@@ -2,5 +2,5 @@
 
 Test
 
-![Product Analytics Process](Images/Product Analytics Process.jpg)
+<img src="/Images/Product Analytics Process.jpg" alt="Alt text" title="Optional title">
 
