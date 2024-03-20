@@ -26,7 +26,7 @@ We took inspiration from the RFM segmentation approach that segments users acros
 
 As we can see from the definitions above, this approach is mostly used in the e-commerce industry. 
 
-However, we decided to leverage the power of this approach to fit it and make it more compatible with CreditBook Ledger’s model. We redefined these 3 segments:
+However, we decided to leverage the power of this approach to fit it and make it more compatible with our business model. We redefined these 3 segments:
 
 - ***Recency*** — how many days ago the user last transacted on
 - ***Frequency*** — how many times the user transacts on average in a week (median weekly entries)
