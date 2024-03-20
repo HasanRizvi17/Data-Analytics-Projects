@@ -8,9 +8,13 @@ To support this, in one of our earlier analyses, we found out that out of all th
 
 Furthermore, we are also currently not taking into account the recency of users, and how many days ago they last transacted on the app. A lot of the users we classify as “*Super*” or “*Power*”, have churned and this information is overlooked many times whenever splitting any product data across user types/groups.
 
+<br>
+
 ## Objectives
 
 Re-define user segments/types using a more sophisticated and multi-dimensional approach that takes into account indicators of user’s performance and engagement apart from only the frequency of entries the user makes in the ledger.
+
+<br>
 
 ## Walk Through
 
@@ -30,11 +34,13 @@ However, we decided to leverage the power of this approach to fit it and make it
 
 We remodeled the RFM to **RFL Segmentation** to align it with the context of our user base.
 
+<br>
+
 ### **RFL Scoring Scale**
 
 For each of the 3 factors, recency, frequency, and longevity, we have scored the user **on a scale of 1 to 4**
 
-![Untitled (5).png](https://prod-files-secure.s3.us-west-2.amazonaws.com/66b28ac1-811a-44c2-ab9a-0fe2f63adc42/748cf0c6-6f6a-4d82-9f55-3483d2c57540/Untitled_(5).png)
+<img src="/User Segmentation - Recency, Frequency, Longevity/Images/RFL Scoring Scale.png" alt="Alt text" title="Optional title">
 
 The overall **RFL score** is simply the three scores (R, F, L) concatenated together. For instance, if a customer gets an R score of 2, F score of 4, and L score of 3, his RFM score will be 243.
 
@@ -56,10 +62,11 @@ Using intuition, we classified those users into 9 different segments, the inform
 
 This time, we have been a bit more stringent on how we define “*activated users*”. A user will not be considered to have been activated if they haven’t been transacting (with ≥ 1 entry) in **at least 2 distinct weeks**. This way, we are able to incorporate the fact that a lot of the users are just testing out the app during the first week in which they install and signup on the app.
 
-<aside>
-📝 **Note:** An understanding of the distribution of the recency, frquency and longevity variables and basic intuition was used to assign users of particular RFL score to segments.
+📝 **Note**: An understanding of the distribution of the recency, frquency and longevity variables and basic intuition was used to assign users of particular RFL score to segments
 
-</aside>
+</aside>   
+
+<br>
 
 ## Insights
 
@@ -67,8 +74,8 @@ When validating the results of this RFL Segmentation, we viewed the user distrib
 
 - **Addicted Users** — total transacting weeks ≥ 52
     
-    ![Untitled (6).png](https://prod-files-secure.s3.us-west-2.amazonaws.com/66b28ac1-811a-44c2-ab9a-0fe2f63adc42/7490abc2-2667-446c-8bd7-7239084a8c91/Untitled_(6).png)
+    <img src="/User Segmentation - Recency, Frequency, Longevity/Images/Addicted Users - RFL Segmentation.png" alt="Alt text" title="Optional title">
     
 - **Good Churned Users** — total transacting weeks ≥ 10 and ≤ 20 AND days since last activity ≥>1 month
     
-    ![Untitled (7).png](https://prod-files-secure.s3.us-west-2.amazonaws.com/66b28ac1-811a-44c2-ab9a-0fe2f63adc42/0c6d8575-eca0-4b11-a8cc-df4c6b2d1a61/Untitled_(7).png)
+    <img src="/User Segmentation - Recency, Frequency, Longevity/Images/Good Churned Users - RFL Segmentation.png" alt="Alt text" title="Optional title">
