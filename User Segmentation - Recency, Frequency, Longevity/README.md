@@ -1,16 +1,10 @@
-### Problem Statement
-Currently, we are only segmenting our user base based on the frequency of weekly entries users do. This ignores all other factors when classifying users as either *Super*, *Power*, *Transacting*, or *New* type. 
-To support this, in one of our earlier analyses, we found out that out of all the users who had been transacting on the app for ≥ 52 distinct weeks, the biggest chunk, 41% came from the *transacting* users group, when we split the distribution by *user_type*. Attaching image for reference below:
-
-Furthermore, we are also currently not taking into account the recency of users, and how many days ago they last transacted on the app. A lot of the users we classify as “Super” or “Power”, have churned and this information is overlooked many times whenever splitting any product data across user types/groups.
-
 ## Problem Statement
 
 Currently, we are only segmenting our user base based on the frequency of weekly entries users do. This ignores all other factors when classifying users as either *Super*, *Power*, *Transacting*, or *New* type. 
 
 To support this, in one of our earlier analyses, we found out that out of all the users who had been transacting on the app for ≥ 52 distinct weeks, the biggest chunk, 41% came from the *transacting* users group, when we split the distribution by *user_type*. Attaching image for reference below:
 
-![Untitled (4).png](https://prod-files-secure.s3.us-west-2.amazonaws.com/66b28ac1-811a-44c2-ab9a-0fe2f63adc42/cf0357a9-9d52-455f-ab5c-28f0efa50eef/Untitled_(4).png)
+<img src="/Images/User Type Distribution.jpg" alt="Alt text" title="Optional title">
 
 Furthermore, we are also currently not taking into account the recency of users, and how many days ago they last transacted on the app. A lot of the users we classify as “*Super*” or “*Power*”, have churned and this information is overlooked many times whenever splitting any product data across user types/groups.
 
