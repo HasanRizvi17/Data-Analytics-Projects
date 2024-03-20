@@ -4,7 +4,7 @@ Currently, we are only segmenting our user base based on the frequency of weekly
 
 To support this, in one of our earlier analyses, we found out that out of all the users who had been transacting on the app for ≥ 52 distinct weeks, the biggest chunk, 41% came from the *transacting* users group, when we split the distribution by *user_type*. Attaching image for reference below:
 
-<img src="/User Segmentation - Recency, Frequency, Longevity/Images/User Type Distribution.png" alt="Alt text" title="Optional title">
+<img src="/RFL User Segmentation - Recency, Frequency, Longevity/Images/User Type Distribution.png" alt="Alt text" title="Optional title">
 
 Furthermore, we are also currently not taking into account the recency of users, and how many days ago they last transacted on the app. A lot of the users we classify as “*Super*” or “*Power*”, have churned and this information is overlooked many times whenever splitting any product data across user types/groups.
 
@@ -40,7 +40,7 @@ We remodeled the RFM to **RFL Segmentation** to align it with the context of our
 
 For each of the 3 factors, recency, frequency, and longevity, we have scored the user **on a scale of 1 to 4**
 
-<img src="/User Segmentation - Recency, Frequency, Longevity/Images/RFL Scoring Scale.png" alt="Alt text" title="Optional title">
+<img src="/RFL User Segmentation - Recency, Frequency, Longevity/Images/RFL Scoring Scale.png" alt="Alt text" title="Optional title">
 
 The overall **RFL score** is simply the three scores (R, F, L) concatenated together. For instance, if a customer gets an R score of 2, F score of 4, and L score of 3, his RFM score will be 243.
 
@@ -74,8 +74,8 @@ When validating the results of this RFL Segmentation, we viewed the user distrib
 
 - **Addicted Users** — total transacting weeks ≥ 52
     
-    <img src="/User Segmentation - Recency, Frequency, Longevity/Images/Addicted Users - RFL Segmentation.png" alt="Alt text" title="Optional title">
+    <img src="/RFL User Segmentation - Recency, Frequency, Longevity/Images/Addicted Users - RFL Segmentation.png" alt="Alt text" title="Optional title">
     
 - **Good Churned Users** — total transacting weeks ≥ 10 and ≤ 20 AND days since last activity ≥>1 month
     
-    <img src="/User Segmentation - Recency, Frequency, Longevity/Images/Good Churned Users - RFL Segmentation.png" alt="Alt text" title="Optional title">
+    <img src="/RFL User Segmentation - Recency, Frequency, Longevity/Images/Good Churned Users - RFL Segmentation.png" alt="Alt text" title="Optional title">
