@@ -14,6 +14,23 @@ RFM analysis can help businesses better understand their customer base, identify
 
 <br>
 
+# Our Analysis
+- R Code filed attached in folder
+- Scoring Key:
+  
+  ![image](https://github.com/HasanRizvi17/Hasan-Data-Analytics-Projects/assets/66498297/00a453d7-2d69-404d-a381-141bd7ef24a6)
+- Customer Segments created based on the RFM scores:
+
+  ![image](https://github.com/HasanRizvi17/Hasan-Data-Analytics-Projects/assets/66498297/99733eee-f817-48aa-af4b-260dd4da59b1)
+- Distribution of Customer Count across RFM Segments:
+
+  ![image](https://github.com/HasanRizvi17/Hasan-Data-Analytics-Projects/assets/66498297/8d313f71-0ae0-4610-8f3c-73f764a52ab1)
+  ![image](https://github.com/HasanRizvi17/Hasan-Data-Analytics-Projects/assets/66498297/16fab4f5-9d83-40d0-97b5-b49973e72411)
+
+
+
+<br>
+
 # Post RFM Analysis Strategies to Target Customers
 ### RFM Strategies:
 - **Champions**: contact them even before adding another product to our portfolio and have their opinion on it since they might have a good idea as they are in direct contact with customers. Focus on loyalty programs and new product introductions. These customers have proven to have a higher willingness to pay, so don't use discount pricing to generate incremental sales. Instead, focus on value added offers through product recommendations based on previous purchases. Get suggestions and feedback about our services.
@@ -28,6 +45,6 @@ RFM analysis can help businesses better understand their customer base, identify
 - **Customers with an RFM score of X14 (114, 214, 314)**: These customers have demonstrated a high willingness to pay. Consider premium offers or value add cross/up-sells to increase AOV. Don't waste margin on discounts. 
 
 ### Potential for Loyalty Program
-•	Tiered incentives can ignite customer engagement and prompt them to purchase more. You can begin with basic membership rewards to encourage customers to sign up for the loyalty program and offer more valuable rewards to your repeat clients as they increase their purchasing volumes. (Dastgyr app can have a point tracker). By gaining more points, buyers can level up from one tier to the next. Leveling up to the next tier can offer more benefits, better pricing, or other incentives.
-•	Referral programs can be used to offer more bonuses to customers/retailers as they invite more customers. Newly referred customers are eligible for this bonus as well. This will make participating in the program a win-win for everyone.
+- **Tiered incentives** can ignite customer engagement and prompt them to purchase more. You can begin with basic membership rewards to encourage customers to sign up for the loyalty program and offer more valuable rewards to your repeat clients as they increase their purchasing volumes. (Dastgyr app can have a point tracker). By gaining more points, buyers can level up from one tier to the next. Leveling up to the next tier can offer more benefits, better pricing, or other incentives.
+- **Referral programs** can be used to offer more bonuses to customers/retailers as they invite more customers. Newly referred customers are eligible for this bonus as well. This will make participating in the program a win-win for everyone.
 
