@@ -8,4 +8,8 @@
 ### 4) Retention Optimization
 ### 5) Period-over-period Retention
 ### 6) Experimentation (A/B Testing) Platform
-### 7) Other Data Analyses
+### 7) Market Basket Analysis
+### 8) RFM Analysis
+### 9) Building Data Pipeline
+### 10) Looker Studio Dashboards
+### 11) Other Data Analyses
