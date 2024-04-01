@@ -22,8 +22,8 @@ colnames(order_items) <- make.names(colnames(order_items))
 colnames(users) <- make.names(colnames(users))
 colnames(retailers) <- make.names(colnames(retailers))
 
-# 
 
+# Pre-processing the raw data tables
 orders <- orders %>%
   select(c(ID, User.ID, Order.Number, Created.At)) %>%
   rename(order.date = Created.At)
