@@ -12,6 +12,7 @@ RFM analysis involves assigning each customer a score for each of these three di
 
 RFM analysis can help businesses better understand their customer base, identify opportunities for upselling and cross-selling, personalize marketing campaigns, and improve overall customer retention and satisfaction
 
+<br>
 
 # Post RFM Analysis Strategies to Target Customers
 ### RFM Strategies:
