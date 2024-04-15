@@ -1,1 +1,1 @@
-
+The idea of this directory is to demonstrate knowledge solely on orchestating pipelines through Airflow (and to avoid revealing any confidential information), which is why complementing files for this project such as those for airflow configurations, additional python modules, etc, have not been uploaded
