@@ -1,7 +1,12 @@
-## Skills Used
+## My Involvement
+### Skills Used
 - ***dbt (data build tool)***: to set up data transformations and build data models
 - ***Apache Airflow***: to schedule/orchestrate the data pipeline and transformational processes 
 - ***Google BigQuery***: to host the Data Warehouse
+### Main Stakeholders Collaborated with
+- ***Data Engineers***: for ingestion (extraction and loading) of data from sources into the Data Lake on Google Cloud Platform
+- ***End-Consumers of data (other Data Analysts)***: for building efficient models that include repetitive transformations that the Data Analysts have to write in their SQL queries (allowed them to focus on more deep-dive analyses)
+- ***End-Consumers of data (Business Team stakeholders)***: for building efficient models in the reporting layer based on real data consumption needs 
 
 ## Overview
 This project covers the "T" part of ETL. Its objective was to set up data transformational processes using modern data stack tools which would then build  data models through a sequence of layers in a data pipeline for efficient data consumption by the end-users of data (primarily analysts). 
