@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+
+  - name: mongodb_staging_data
+    tables:
+      - name: orders_mongo_raw_data
+      - name: businesses_mongo_raw_data
+      - name: users_mongo_raw_data
+      - name: contacts_mongo_raw_data
+      - name: inventories_mongo_raw_data

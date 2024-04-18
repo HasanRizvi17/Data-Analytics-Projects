@@ -1,0 +1,163 @@
+version: 2
+sources:
+  - name: categorized_data
+    tables:
+      - name: internal_test_users
+        description: "list of user accounts created for internal testing by company employees"
+
+models:
+  - name: businesses_latest
+    description: "A table containing the latest information for all businesses in the database."
+    columns:
+      - name: business_id
+        description: "A unique identifier for each business."
+        tests:
+          - unique
+          - not_null
+      - name: user_id
+        description: "The unique identifier of the user associated with the business."
+        tests:
+          - not_null 
+      - name: business_name
+        description: "The business name associated with the business."
+        tests:
+          - not_null 
+      - name: business_type
+        description: "The busiiness type associated with the business."
+        tests:
+          - not_null
+      - name: supply_chain_role
+        description: "The supply chain role associated with the business: one or more of manufacturer, retailer, supplier, distributor"
+        tests:
+          - not_null
+      - name: created_at
+        description: " The timestamp when the busienss was created."
+      - name: updated_at
+        description: "TThe timestamp associated with when the busienss details were lasr edited"
+
+
+  - name: contacts_latest
+    description: "A table containing the latest information for all contacts in the database."
+    columns:
+      - name: contact_id
+        description: "A unique identifier for each contact."
+        tests:
+          - unique
+          - not_null
+      - name: user_id
+        description: "The unique identifier of the user associated with the contact."
+        tests:
+            - not_null
+      - name: business_id
+        description: "The unique identifier of the business associated with the user."
+        tests:
+            - not_null
+      - name: contact_name
+        description: "The name of the contact."
+        tests:
+            - not_null
+      - name: business_name
+        description: "The name of the business name associated with the contact."
+      - name: mobile_number
+        description: "The mobile number of the contact."
+        tests:
+            - not_null
+      - name: email
+        description: "The email address associated with the contact."
+      - name: address
+        description: "The address of the contact."
+      - name: business_relationship
+        description: "The type of relationship the contact has with the associated business, one or both of customer, supplier"
+        tests:
+            - not_null
+      - name: created_at
+        description: "The timestamp when the contact was created."
+      - name: updated_at
+        description: "The timestamp associated with when the contact details were last edited."
+
+
+  - name: inventories_latest
+    description: "A table containing the latest inventory information for businesses."
+    columns:
+      - name: inventory_id
+        description: "A unique identifier for each inventory item."
+        tests:
+          - unique
+          - not_null
+      - name: business_id
+        description: "The unique identifier of the business associated with the inventory item."
+        tests:
+          - not_null
+      - name: user_id
+        description: "The unique identifier of the user associated with the inventory item."
+        tests:
+          - not_null
+      - name: name
+        description: "The name of the inventory item."
+        tests:
+          - not_null
+      - name: code
+        description: "The code associated with the inventory item."
+        tests:
+          - not_null
+      - name: labels
+        description: "Labels or tags associated with the inventory item."
+      - name: created_at
+        description: "The timestamp when the inventory item was created."
+      - name: updated_at
+        description: "The timestamp associated with when the inventory item details were last edited."
+
+
+  - name: orders_latest
+    description: "A table containing the latest information on orders placed by users."
+    columns:
+      - name: order_id
+        description: "A unique identifier for each order."
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        description: "The unique identifier of the user associated with the order."
+        tests:
+          - not_null
+      - name: business_id
+        description: "The unique identifier of the user's business associated with the order."
+        tests:
+          - not_null
+      - name: contact_id
+        description: "The unique identifier of the contact associated with the order."
+        tests:
+          - not_null
+      - name: transaction_type
+        description: "One of order, inquiry."
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['order','inquiry']
+      - name: created_at
+        description: "The timestamp when the order was created."
+      - name: updated_at
+        description: "The timestamp associated with when the order was last updated."
+
+
+  - name: users_latest
+    description: "A table containing the latest information on users."
+    columns:
+      - name: user_id
+        description: "A unique identifier for each user."
+        tests:
+            - not_null
+            - unique
+      - name: full_name
+        description: "The full name of the user."
+      - name: mobile_number
+        description: "The mobile number associated with the user."
+        tests:
+            - not_null
+            - unique
+      - name: created_at
+        description: "The timestamp when the user was created."
+      - name: updated_at
+        description: "The timestamp associated with when the user details were last updated."
+
+
