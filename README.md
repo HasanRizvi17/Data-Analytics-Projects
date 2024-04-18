@@ -7,6 +7,6 @@
 ### 6) Retention Optimization
 ### 7) Period-over-period Retention
 ### 8) 🧪Experimentation (A/B Testing) Platform
-### 9) Building Data Pipeline
+### 9) [Building Data Pipeline (ETL)](https://github.com/HasanRizvi17/Hasan-Data-Analytics-Projects/tree/main/Building%20Data%20Pipeline%20(ETL))
 ### 10) Looker Studio Dashboards
 ### 11) Other Data Analyses
