@@ -1,6 +1,10 @@
 ## Problem Statement
 
-Currently, we are only segmenting our user base based on the frequency of weekly entries users do. This ignores all other factors when classifying users as either *Super*, *Power*, *Transacting*, or *New* type. 
+Currently, we are only segmenting our user base based on the frequency of weekly transactions users into the following groups:
+- *Super*: > 10 transactions per week
+- *Power*: >= 5 and < 10 transactions per week
+- *Transacting*: >= 1 and < 5 transactions per week (AND at least 21 days passed since signed up on the app)
+- *New*: 0 transactions done signup OR less than 21 days passed since signed up on the app
 
 To support this, in one of our earlier analyses, we found out that out of all the users who had been transacting on the app for ≥ 52 distinct weeks, the biggest chunk, 41% came from the *transacting* users group, when we split the distribution by *user_type*. Attaching image for reference below:
 
