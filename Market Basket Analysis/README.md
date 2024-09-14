@@ -1,4 +1,7 @@
-# What is Market Basket Analysis? (Brief Overview)
+# Objective
+The aim of this project was to identify the top product combinations with the highest propensity to be purchased together by customers to enable the key stakeholders in the Commercials and Marketing teams to take strategic decisions around pricing and bundling.
+
+# What is Market Basket Analysis?
 Market Basket Analysis (MBA) uses a machine learning algorithm that can tell us what items customers frequently buy together by generating a set of rules called association rules.
 A sample result table of such analysis is shown below:
 
