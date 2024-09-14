@@ -2,7 +2,7 @@
 
 | **Project**                            | **Industry**         | **Objective**                                                                       |
 |--------------------------------------  |----------------------|---------------------------------------------------------------------------------------|
-| [RFL User Segmentation - Recency, Frequency, Longevity](https://github.com/HasanRizvi17/Hasan-Data-Portfolio/tree/main/RFL%20User%20Segmentation%20-%20Recency%2C%20Frequency%2C%20Longevity) | FinTech | |
+| [RFL User Segmentation - Recency, Frequency, Longevity](https://github.com/HasanRizvi17/Hasan-Data-Portfolio/tree/main/RFL%20User%20Segmentation%20-%20Recency%2C%20Frequency%2C%20Longevity) | FinTech | Re-define user segments using a more sophisticated and multi-dimensional approach that takes into account indicators of user’s performance from various angles (and metrics) |
 | [RFM Analysis](https://github.com/HasanRizvi17/Hasan-Data-Analytics-Projects/tree/main/RFM%20Analysis) | E-commerce | |
 | [Market Basket Analysis](https://github.com/HasanRizvi17/Data-Analytics-Projects/tree/main/Market%20Basket%20Analysis)                 | E-commerce           | To identify the top product combinations with the highest propensity to be purchased together by customers to enable the key stakeholders in the Commercials and Marketing teams to take strategic decisions around pricing and bundling |
 | Understanding Stickiness of Users to the Product | FinTech | |
