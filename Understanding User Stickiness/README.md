@@ -42,5 +42,5 @@ On a user-level, we're measuring stickiness by the following metrics:
   - User doesn’t fully know how to use the app
     - Introduce tutorials for different features and functionalities within the app (since currently there are none)
     - Other:
-      - If, from our product analytics tool, we find that the reason for user churn was not due to PNs, we could utilize PNs to remind them of CreditBook’s services (otherwise it would not make sense to keep spamming them with PNs)
+      - If, from our product analytics tool, we find that the reason for user churn was not due to PNs, we could utilize PNs to remind them of the company’s services (otherwise it would not make sense to keep spamming them with PNs)
       - To keep the current users engaged, we could automate reminder PNs as soon as they cross the 7-day mark for time since their last transaction
