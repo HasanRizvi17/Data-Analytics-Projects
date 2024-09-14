@@ -1,6 +1,12 @@
+# Tools Used
+| **Tool**                            | **Purpose**          |
+|-------------------------------------|----------------------|
+| R-Studio                            | Coding               | 
+| Microsoft Excel / Google Sheets                     | Data Visualization   | 
+<br>
+
 # Objective
 Analyze the transactional data and give the business stakeholders an understanding of how sticky these users are to the business management ledger product/app. The top users would be made part of the cohort we'll be experimenting our new loyalty program with.
-<br>
 <br>
 <br>
 
@@ -66,7 +72,6 @@ There are 12 such users in total. We arrange them by descending order of Average
 Even in this group of users, we notice the _**transactions_per_active_week is heavily skewed in favor of the top 2 users having values of 144.64 and 112.67 respectively**_, which are much higher than the transactions_per_active_week value of the third ranked user, which is 44.17.
 
 Perhaps, if we look into more data such as in-app product analytics data, we can get a much better understanding of how their journey looks like within the app and what makes them stick more to the app than the other users.
-<br>
 <br>
 <br>
 
