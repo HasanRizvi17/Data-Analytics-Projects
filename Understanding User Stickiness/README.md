@@ -1,16 +1,16 @@
-# Tools Used
+# 🛠️ Tools Used
 | **Tool**                            | **Purpose**          |
 |-------------------------------------|----------------------|
 | R-Studio                            | Coding               | 
 | Microsoft Excel / Google Sheets                     | Data Visualization   | 
 <br>
 
-# Objective
+# 💡 Objective
 Analyze the transactional data and give the business stakeholders an understanding of how sticky these users are to the business management ledger product/app. The top users would be made part of the cohort we'll be experimenting our new loyalty program with.
 <br>
 <br>
 
-# Analysis & Insights
+# 📊 Analysis & Insights
 
 ### **Stickiness on Overall User-base Level**
 
@@ -75,7 +75,7 @@ Perhaps, if we look into more data such as in-app product analytics data, we can
 <br>
 <br>
 
-# Business Recommendations
+# 💼 Business Recommendations
 1. For us to further deep dive into this, we have to understand why some of these top users are on the brink of churning.
 2. Some of the methods we could use to understand this are:
   - Use of in-app product analytics (the data of which we do not have at the moment for deeper analysis)
