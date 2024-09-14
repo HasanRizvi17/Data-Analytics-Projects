@@ -40,8 +40,8 @@ On a user-level, we're measuring stickiness by the following metrics:
 
 This depicts that the top users, when viewed individually on the basis of these two metrics, are vastly different.
 When viewing the top 10 users separately by the two metrics above, we find that:
-1. _**Only 1 out of the top 10 users by average transactions per active week, also belongs to the top 10 users by weeks actively transacting**_. 90% of these top 10 users are those who haven’t been active in a lot of weeks, but when they have been using the CreditBook app, they have been using it quite rigorously within their active weeks.
-2. _**Only 1 out of the top 10 users by weeks actively transacting, also belongs to the top 10 users by average transactions per active week**_. The 90% of the top 10 users (remaining 9 users) are those who haven’t been rigorously and frequently using it within their active weeks, but have been consistently using the CreditBook app over a larger number of weeks.
+1. _**Only 1 out of the top 10 users by average transactions per active week, also belongs to the top 10 users by weeks actively transacting**_. 90% of these top 10 users are those who haven’t been active in a lot of weeks, but when they have been using the Business Management Ledger app, they have been using it quite rigorously within their active weeks.
+2. _**Only 1 out of the top 10 users by weeks actively transacting, also belongs to the top 10 users by average transactions per active week**_. The 90% of the top 10 users (remaining 9 users) are those who haven’t been rigorously and frequently using it within their active weeks, but have been consistently using the Business Management Ledger app over a larger number of weeks.
 <br>
 
 **Top 10 Users by both Average Weekly Transactions and Weeks Actively Transacting**
