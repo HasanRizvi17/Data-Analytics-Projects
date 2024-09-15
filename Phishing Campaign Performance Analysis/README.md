@@ -1,7 +1,7 @@
 # 🛠️ Tools Used
 | **Tool**                            | **Purpose**          |
 |-------------------------------------|----------------------|
-| SQL                            | Coding               | 
+| SQL                            | Data Modeling and Analysis                | 
 | Tableau                     | Data Visualization   | 
 <br>
 
