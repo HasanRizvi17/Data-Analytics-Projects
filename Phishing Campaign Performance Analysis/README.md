@@ -1,11 +1,20 @@
-# Objective
+# 🛠️ Tools Used
+| **Tool**                            | **Purpose**          |
+|-------------------------------------|----------------------|
+| SQL                            | Coding               | 
+| Tableau                     | Data Visualization   | 
+<br>
+
+
+
+# 💡 Objective
 Understand quantitatively how well our current phishing simulation offering and its campaigns are performing in terms of the value it is bringing to the customers throughout their lifecycle and share actionable insights that the Phishing Simulation Product Team could utilize to make them more impactful for our customers.
 
 <br>
 
 
 
-# Analysis & Insights
+# 📊 Analysis & Insights
 
 ## Metric Definitions
 
@@ -112,7 +121,7 @@ Overall, it seems most of the industry’s are becoming increasingly susceptible
 
 
 
-# Business Recommendations
+# 💼 Business Recommendations
 <br>
 
 **1) Develop Journeys for Delivering Learning Moments**
